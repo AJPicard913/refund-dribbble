@@ -15,6 +15,16 @@
 		09A6D1C424E98AF400B12012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6D19924E98AF300B12012 /* ContentView.swift */; };
 		09A6D1C524E98AF400B12012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A6D19A24E98AF400B12012 /* Assets.xcassets */; };
 		09A6D1C624E98AF400B12012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A6D19A24E98AF400B12012 /* Assets.xcassets */; };
+		09A6D1D624E98C2400B12012 /* Heaader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6D1D524E98C2400B12012 /* Heaader.swift */; };
+		09A6D1D724E98C2400B12012 /* Heaader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6D1D524E98C2400B12012 /* Heaader.swift */; };
+		09A6D1D924E98ECE00B12012 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6D1D824E98ECE00B12012 /* Search.swift */; };
+		09A6D1DA24E98ECE00B12012 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6D1D824E98ECE00B12012 /* Search.swift */; };
+		09A6D1DC24E9910200B12012 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6D1DB24E9910200B12012 /* Progress.swift */; };
+		09A6D1DD24E9910200B12012 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6D1DB24E9910200B12012 /* Progress.swift */; };
+		09A6D1DF24E9936500B12012 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6D1DE24E9936500B12012 /* Tabbar.swift */; };
+		09A6D1E024E9936500B12012 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6D1DE24E9936500B12012 /* Tabbar.swift */; };
+		09A6D1E224E994CD00B12012 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6D1E124E994CD00B12012 /* Card.swift */; };
+		09A6D1E324E994CD00B12012 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6D1E124E994CD00B12012 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,11 @@
 		09A6D1BA24E98AF400B12012 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A6D1BE24E98AF400B12012 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		09A6D1C024E98AF400B12012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A6D1D524E98C2400B12012 /* Heaader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heaader.swift; sourceTree = "<group>"; };
+		09A6D1D824E98ECE00B12012 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		09A6D1DB24E9910200B12012 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		09A6D1DE24E9936500B12012 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		09A6D1E124E994CD00B12012 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +115,11 @@
 			children = (
 				09A6D19824E98AF300B12012 /* Refund_DribbbleApp.swift */,
 				09A6D19924E98AF300B12012 /* ContentView.swift */,
+				09A6D1E124E994CD00B12012 /* Card.swift */,
+				09A6D1DE24E9936500B12012 /* Tabbar.swift */,
+				09A6D1DB24E9910200B12012 /* Progress.swift */,
+				09A6D1D824E98ECE00B12012 /* Search.swift */,
+				09A6D1D524E98C2400B12012 /* Heaader.swift */,
 				09A6D19A24E98AF400B12012 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,6 +329,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				09A6D1C324E98AF400B12012 /* ContentView.swift in Sources */,
+				09A6D1DC24E9910200B12012 /* Progress.swift in Sources */,
+				09A6D1E224E994CD00B12012 /* Card.swift in Sources */,
+				09A6D1D924E98ECE00B12012 /* Search.swift in Sources */,
+				09A6D1DF24E9936500B12012 /* Tabbar.swift in Sources */,
+				09A6D1D624E98C2400B12012 /* Heaader.swift in Sources */,
 				09A6D1C124E98AF400B12012 /* Refund_DribbbleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +343,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				09A6D1C424E98AF400B12012 /* ContentView.swift in Sources */,
+				09A6D1DD24E9910200B12012 /* Progress.swift in Sources */,
+				09A6D1E324E994CD00B12012 /* Card.swift in Sources */,
+				09A6D1DA24E98ECE00B12012 /* Search.swift in Sources */,
+				09A6D1E024E9936500B12012 /* Tabbar.swift in Sources */,
+				09A6D1D724E98C2400B12012 /* Heaader.swift in Sources */,
 				09A6D1C224E98AF400B12012 /* Refund_DribbbleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

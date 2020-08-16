@@ -9,7 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!").padding()
+        
+        VStack {
+            Header()
+                .padding(.top, 20)
+            Search()
+                .padding(.top, 20)
+            Progress()
+                .padding(.top, 20)
+            Card()
+            Tabbar()
+        }
+        
     }
 }
 
